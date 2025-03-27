@@ -1,3 +1,12 @@
+```shelll
+docker compose -p docker-apisix up -d
+
+docker compose -p docker-apisix down
+
+
+docker network create   --driver bridge   --subnet=192.168.254.0/24   apisix
+
+```
 ## What is Apache APISIX API Gateway
 
 Apache APISIX is a dynamic, real-time, high-performance API Gateway.
